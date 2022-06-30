@@ -12,26 +12,24 @@
 <body><EM>
 
 		<H2>
-			<a href="http://stu.cbu.edu/~nmutasa/Project2.html">HOME</a>
+			<a href="./Project2.html">HOME</a>
 			<a href="#res">RESERVATIONS</a>
 			<a href="#rev">REVIEWS</a>
-			<a href="http://stu.cbu.edu/~nmutasa/About.html">ABOUT</a>
-			<a href="http://stu.cbu.edu/~nmutasa/Contact.html">CONTACT</a>
+			<a href="./About.html">ABOUT</a>
+			<a href="./Contact.html">CONTACT</a>
 		</H2>
 
-		<center><img src="logo.png" vspace=5></center>
+		<center><img  id="logo" src="logo.png" vspace=5></center>
 		<H4>A Sustainable, Fine Dining Experience.</H4>
 		<BR><BR>
 		<BR><BR>
-		<BR><BR>
-		<BR><BR>
-		<BR><BR>
+		
 
 
 		<a name="res">
 			<H2>RESERVATIONS</H2>
 			<H5>Book a Table!</H5>
-			<Form method="post" action="http://facstaff.cbu.edu/dbrandon/echo.php">
+			<Form id="form" method="post" action="http://facstaff.cbu.edu/dbrandon/echo.php">
 				<BR><BR>
 				First and Last Name: <input type="text" size=40 name="Name">
 				<BR><BR>
@@ -63,7 +61,7 @@
 					First Name: <input type="text" size=20 name="Name">
 					Date of Visit: <input type="text" size=20 name="Visit">
 					<BR><BR>
-					Comments: <input type="text" size=65 name="Review">
+					Comments: <input type="text" size=40 name="Review">
 					<BR><BR>
 					<input type="submit" name="submit" value="submit">
 					<input type="reset" name="reset" value="reset">

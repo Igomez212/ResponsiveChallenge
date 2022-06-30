@@ -4,9 +4,9 @@ A:visited, A:active {color: green}
 A:hover {text-decoration: overline; color: teal}
 	
 Body {
-	background-color: white;
+	background-color: tan;
 	font-family: cambria;
-	color: gray	
+	color: black	
 	}
 
 H1 {font-size: 25pt; text-align: center}
@@ -15,52 +15,103 @@ H3 {font-size: 10pt; text-align: center}
 H4 {text-align: center}
 H5 {font-size: 15pt; text-align: center}
 
-P {font-size: 10pt; font-family: monospace}
+P {font-size: 10pt; font-family: center;}
 
 Table {
 	width: 400px; 
 	font-family: monospace; 
-	color: white; 
-	background-color: green;
+	color: black; 
+	background-color: white;
 	margin: .8em;
-	border-color: darkgreen}
+	border-color: black}
 
 
 Form {
 	font-family: monospace; 
 	text-align: center; 
-	color: white; 
-	background-color: green}
+	color: black; 
+	background-color: white}
 
-
-@media screen and (min-width: 310px){
-	H1 {font-size: 50pt; text-align: center}
-	#logo {
-		border-radius: 8px;
-		width: 310;
-	  }
-	#veggie {
-		border-radius: 8px;
-		width: 310;
-	  }
-	H2 {font-size: 25pt; text-align: center}
-	H3 {font-size: 25pt; text-align: center}
-	H4 {font-size: 25pt; text-align: center}
-	H5 {font-size: 25pt; text-align: center}
-	
-
-	P {font-size: 10pt; font-family: monospace}
-
-}
 
 @media screen and (max-width: 1550px){
+	#table{
+		align-items: center;
+		width: auto;
+	}
 	H1 {font-size: 25pt; text-align: center}
 	H2 {font-size: 25pt; text-align: center}
 	H3 {font-size: 25pt; text-align: center}
 	H4 {font-size: 25pt; text-align: center}
 	H5 {font-size: 25pt; text-align: center}
-
-	P {font-size: 10pt; font-family: monospace}
-
 }
 
+@media screen and (max-width: 780px){
+	
+	#logo {
+		border-radius: 8px;
+		width: 280px;
+	  }
+	#veggie {
+		border-radius: 8px;
+		width: 280px;
+	  }
+	H1 {font-size: 15pt; text-align: center;}
+	H2 {font-size: 10pt; text-align: center;}
+	H3 {font-size: 25pt; text-align: center;}
+	H4 {font-size: 25pt; text-align: center;}
+	H5 {font-size: 25pt; text-align: center;}
+}
+
+@media screen and (max-width: 460px){
+	
+	#logo {
+		border-radius: 8px;
+		width: 280px;
+	  }
+	#veggie {
+		border-radius: 8px;
+		width: 280px;
+	  }
+	H1 {font-size: 15pt; text-align: center;}
+	H2 {font-size: 10pt; text-align: center;}
+	H3 {font-size: 25pt; text-align: center;}
+	H4 {font-size: 25pt; text-align: center;}
+	H5 {font-size: 25pt; text-align: center;}
+}
+
+@media screen and (max-width: 380px){
+	
+	#logo {
+		border-radius: 8px;
+		width: 280px;
+	  }
+	#veggie {
+		border-radius: 8px;
+		width: 280px;
+	  }
+	#form{
+		width: 350px;
+	}
+	H1 {font-size: 15pt; text-align: center;}
+	H2 {font-size: 10pt; text-align: center;}
+	H3 {font-size: 25pt; text-align: center;}
+	H4 {font-size: 25pt; text-align: center;}
+	H5 {font-size: 10pt; text-align: center;}
+}
+
+@media screen and (max-width: 320px){
+
+	#logo {
+		border-radius: 8px;
+		width: 280px;
+	  }
+	#veggie {
+		border-radius: 8px;
+		width: 280px;
+	  }
+	H1 {font-size: 15pt; text-align: center;}
+	H2 {font-size: 10pt; text-align: center;}
+	H3 {font-size: 25pt; text-align: center;}
+	H4 {font-size: 10pt; text-align: center;}
+	H5 {font-size: 10pt; text-align: center;}
+}
